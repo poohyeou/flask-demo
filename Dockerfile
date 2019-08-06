@@ -12,7 +12,7 @@ RUN pip install flask pyyaml
 COPY ./source ${HOME_DIR}
 
 # Setting flask 
-ADD flask.conf ${HOME_DIR}/flask.conf
+ADD flask2.conf ${HOME_DIR}/flask.conf
 
 WORKDIR ${HOME_DIR}
 
